@@ -1,0 +1,291 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+.logo,h1,h2,h3,h4,h5,h6{
+  font-family: "Playfair Display", serif;
+}
+h1{
+  font-size: 3.815rem;
+  margin-bottom: 1.5rem;
+}
+h2{
+  font-size: 3.052rem;
+}
+h3{
+  font-size: 2.441rem;
+}
+h4{
+  font-size: 1.953rem;
+}
+h5{
+  font-size: 1.563rem;
+}
+h6{
+  font-size: 1.25rem;
+}
+p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+header{
+ border-bottom: 1px solid gray;
+ height: 60px;
+ padding-bottom: 12px;
+ padding-top: 12px;
+}
+.container{
+  
+  height: 100%;
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+nav a{
+  text-decoration: none;
+  color: gray;
+}
+#section1{
+  background-color: rgb(232, 232, 232);
+  padding: 32px;
+}
+#section1 .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+#section1 p{
+max-width: 540px;
+}
+#buttonprimary{
+  display: inline-block;
+  background: black;
+  color: white;
+  border-radius: 2px;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  
+}
+#buttonsecondary{
+text-decoration: none;
+color: black;
+border: 1px solid black;
+padding: 0.5rem 1.5rem ;
+border-radius: 2px;
+}
+#section3{
+  padding-top: 1rem;
+}
+.products{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.image{
+  max-width:100%;
+}
+.article{
+  margin: 1rem;
+}
+
+
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+  color: #ffcc00;
+}
+
+
+
+#background-image{
+  max-width: 100%;
+}
+.under-dress {
+  width: 100%;
+  height: 490px;
+  background: #dec3c3;
+  text-align: center;
+}
+#ur{
+  font-size: 10rem;
+    font-family: fantasy;
+}
+
+  .email {
+    border: none;
+    background: #dec3c3;
+    border-bottom: 1px solid black;
+    padding-left: 114px;
+    padding-right: 84px;
+    font-size: 16px;
+    padding-top: 16px;
+}#section4 {
+  background: #999999;
+  width: 100%;
+  height: 257px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.in-london {
+  color: #c80a0a;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  top: 80px;
+  height: 92px;
+  background: black;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.word-animation {
+  display: inline-block;
+  animation: runText 10s linear infinite;
+}
+
+@keyframes runText {
+  0% {
+      transform: translateX(100%);
+  }
+
+  25% {
+      transform: translateX(0%);
+  }
+
+  50% {
+      transform: translateX(-100%);
+  }
+
+  75% {
+      transform: translateX(-200%);
+  }
+
+  100% {
+      transform: translateX(-300%);
+  }
+}
+
+#come-tolondon {
+  margin-top: 107px;
+  margin-left: 61px;
+  color: #c80a0a;
+  font-size: large;
+  font-weight: 500;
+}
+#checkbox{
+margin-top: 20px;
+}
+.subscribe {
+  border: none;
+  background: gray;
+  color: white;
+  display: inline-block;
+  padding-left: 100px;
+  padding-right: 107px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer1{
+  height: 300px;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.last-link {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.footer-div{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+}
+.footer-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+    gap: 33px;
+}
+.Shopr{
+  text-align: center;
+    padding-top: 32px;
+}
+#last-para{
+  text-align: center;
+  margin-top: 89px;
+  font-size: 13px;
+}
+.container-last {
+  height: 150px;
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 293px;
+}
+
+  .last-icon {
+    width: 30px;
+    margin-left: 46px;
+    padding-top: 17px;
+}
+#section7{
+
+}
+
+
